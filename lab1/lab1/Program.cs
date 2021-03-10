@@ -295,8 +295,6 @@ namespace lab1
                     Environment.Exit(0);
                         break;
                 }
-            
-            
         }
     }
 }
