@@ -74,10 +74,7 @@ namespace lab1
                 rightt = first;
                 
                 choise = Console.ReadLine();
-            choise = Check(choise);
-                //while (choise !="1" && choise != "2" && choise != "3" && choise != "4" && choise != "50" && choise != "hall") {
-                //    Console.WriteLine("Error.Write possible answer or hint");
-                //    choise = Console.ReadLine(); }
+                choise = Check(choise);
             
                 if (choise == "50" || choise == "hall")
                 {
