@@ -1,7 +1,0 @@
-D:\labs c#\lab 1\lab1\lab1\bin\Debug\lab1.exe.config
-D:\labs c#\lab 1\lab1\lab1\bin\Debug\lab1.exe
-D:\labs c#\lab 1\lab1\lab1\bin\Debug\lab1.pdb
-D:\labs c#\lab 1\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
-D:\labs c#\lab 1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
-D:\labs c#\lab 1\lab1\lab1\obj\Debug\lab1.exe
-D:\labs c#\lab 1\lab1\lab1\obj\Debug\lab1.pdb
