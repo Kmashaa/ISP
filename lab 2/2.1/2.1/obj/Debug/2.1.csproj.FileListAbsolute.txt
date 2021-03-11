@@ -1,0 +1,14 @@
+D:\labs c#\lab 2\2.1(1)\2.1\2.1\bin\Debug\2.1.exe.config
+D:\labs c#\lab 2\2.1(1)\2.1\2.1\bin\Debug\2.1.exe
+D:\labs c#\lab 2\2.1(1)\2.1\2.1\bin\Debug\2.1.pdb
+D:\labs c#\lab 2\2.1(1)\2.1\2.1\obj\Debug\2.1.csprojAssemblyReference.cache
+D:\labs c#\lab 2\2.1(1)\2.1\2.1\obj\Debug\2.1.csproj.CoreCompileInputs.cache
+D:\labs c#\lab 2\2.1(1)\2.1\2.1\obj\Debug\2.1.exe
+D:\labs c#\lab 2\2.1(1)\2.1\2.1\obj\Debug\2.1.pdb
+D:\labs c#\lab 2\lab 2\lab 2\2.1\2.1\bin\Debug\2.1.exe.config
+D:\labs c#\lab 2\lab 2\lab 2\2.1\2.1\bin\Debug\2.1.exe
+D:\labs c#\lab 2\lab 2\lab 2\2.1\2.1\bin\Debug\2.1.pdb
+D:\labs c#\lab 2\lab 2\lab 2\2.1\2.1\obj\Debug\2.1.csprojAssemblyReference.cache
+D:\labs c#\lab 2\lab 2\lab 2\2.1\2.1\obj\Debug\2.1.csproj.CoreCompileInputs.cache
+D:\labs c#\lab 2\lab 2\lab 2\2.1\2.1\obj\Debug\2.1.exe
+D:\labs c#\lab 2\lab 2\lab 2\2.1\2.1\obj\Debug\2.1.pdb
