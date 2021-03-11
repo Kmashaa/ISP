@@ -39,7 +39,6 @@ namespace _2._3
            
             if (number1ULong > number2ULong)
             {
-               // ulong number;
                 ulong number = number1ULong;
                 number1ULong = number2ULong;
                 number2ULong = number;
