@@ -50,8 +50,7 @@ namespace _2._3
             ulong result;
             if (number1ULong == 0 || number2ULong == 0)
             {
-                result = 0;
-                Console.WriteLine(result);
+                Console.WriteLine("This is not divisible by 2");
                 Environment.Exit(0);
             }
 
