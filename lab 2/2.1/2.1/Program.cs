@@ -24,9 +24,8 @@ namespace _2._1
         } 
         static void Main()
         {
-            DateTime now = DateTime.Now;
-            string firstFormat = now.ToString("F");
-            string secondFormat = now.ToString("G");
+            string firstFormat = DateTime.Now.ToString("F");
+            string secondFormat = DateTime.Now.ToString("G");
            
             Checking(firstFormat);
             Console.WriteLine(firstFormat);
