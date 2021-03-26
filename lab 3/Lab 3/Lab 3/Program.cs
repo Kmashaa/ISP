@@ -13,7 +13,7 @@ namespace Lab_3
             newPerson.EnterData();
             newPerson.Information();
             Console.WriteLine("Now we go to change the surname to " + newPerson.Surname+" "
-                              + newPerson.Name + " Enter new surname:");
+                              + newPerson.Name + ". Enter new surname:");
             newPerson.Surname = Console.ReadLine();
             newPerson.Information();
             firstPerson.ChangeInformation("sasha");
