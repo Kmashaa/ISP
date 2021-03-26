@@ -109,19 +109,19 @@ namespace Person
         {
             string inf;
 
-            Console.WriteLine("Please, enter a name\n");
+            Console.WriteLine("Please, enter a name");
             inf = Console.ReadLine();
             _name = Human.CheckData(inf, 97, 122);
 
-            Console.WriteLine("Please, enter a surname\n");
+            Console.WriteLine("Please, enter a surname");
             inf = Console.ReadLine();
             _surname = Human.CheckData(inf, 97, 122);
 
-            Console.WriteLine("Please, enter an age\n");
+            Console.WriteLine("Please, enter an age");
             inf = Console.ReadLine();
             _age = Human.CheckData(inf, 48, 57);
 
-            Console.WriteLine("Please, enter a gender(woman or man)\n");
+            Console.WriteLine("Please, enter a gender(woman or man)");
             inf = Console.ReadLine();
             while (inf != "man" && inf != "woman")
             {
@@ -130,11 +130,11 @@ namespace Person
             }
             _gender = Human.CheckData(inf, 97, 122);
 
-            Console.WriteLine("Please, enter a profession\n");
+            Console.WriteLine("Please, enter a profession");
             inf = Console.ReadLine();
             _profession = Human.CheckData(inf, 97, 122);
 
-            Console.WriteLine("Please, enter a salary\n");
+            Console.WriteLine("Please, enter a salary");
             inf = Console.ReadLine();
             _salary = Human.CheckData(inf, 48, 57);
         }
