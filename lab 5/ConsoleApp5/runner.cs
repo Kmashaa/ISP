@@ -11,8 +11,10 @@ namespace Run
             public string Height;
         }
         Parameters p;
+        
         protected int _maxDistance { get; set; }
         protected string _presenceOfRecords { get; set; }
+        
         public Runner(string name, string surname, string age, string gender, string profession,
                       string salary, string endurance, int weight, string height, int maxDistance, string presenceOfRecords = "no")
         {
@@ -50,6 +52,7 @@ namespace Run
         {
             _weight++;
         }
+        
         public override void GainWeight(int moreWeight)
         {
             _weight += moreWeight;
@@ -59,14 +62,17 @@ namespace Run
         {
             _weight--;
         }
+        
         public override void LoseWeight(int lessWeight)
         {
             _weight -= lessWeight;
         }
+        
         public void SetRecord()
         {
             _presenceOfRecords = "yes";
         }
+        
         public void NewMaxDistance(int dist)
         {
             if (dist > _maxDistance)
