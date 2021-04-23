@@ -11,8 +11,10 @@ namespace Football
             public string Height;
         }
         Parameters p;
+        
         protected int _scoredGoals{get; set;}
         protected int _concededGoals { get; set; }
+        
         public Footballer(string name, string surname, string age, string gender, string profession,
                       string salary,string endurance, int weight, string height, int scoredGoals, int concededGoals)
         {
@@ -39,14 +41,17 @@ namespace Football
         {
             _scoredGoals++;
         }
+        
         public void MoreScoredGoals(int num)
         {
             _scoredGoals += num;
         }
+        
         public void MoreConcededGoals()
         {
             _concededGoals++;
         }
+        
         public void MoreConcededGoals(int num)
         {
             _concededGoals += num;
@@ -56,18 +61,22 @@ namespace Football
         {
             _weight++;
         }
+        
         public override void GainWeight(int moreWeight)
         {
             _weight += moreWeight;
         }
+        
         public override void LoseWeight()
         {
             _weight--;
         }
+        
         public override void LoseWeight(int lessWeight)
         {
             _weight -= lessWeight;
         }
+        
         public override void Information()
         {
             Console.WriteLine($"\nName: {_name}\nSurname: {_surname}\nAge: {_age}\n" +
