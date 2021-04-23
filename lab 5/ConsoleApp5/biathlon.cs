@@ -11,24 +11,30 @@ namespace Biathlon
             public string Height;
         }
         Parameters p;
+        
         protected string _accuracy { get; set; }
         protected string _normalSpeed { get; set; }
+        
         public override void GainWeight()
         {
             _weight++;
         }
+        
         public override void GainWeight(int moreWeight)
         {
             _weight += moreWeight;
         }
+        
         public override void LoseWeight()
         {
             _weight--;
         }
+        
         public override void LoseWeight(int lessWeight)
         {
             _weight -= lessWeight;
         }
+        
         public void NewAccuracy(string n)
         {
             _accuracy = CheckData(n, 47, 57);
@@ -36,13 +42,13 @@ namespace Biathlon
        
        public int[] shooting = new int[5] { 0, 0, 0, 0, 0 };
       
-        public void Shoot(int f, int s, int th, int ff, int fff)
+       public void Shoot(int first, int second, int third, int fourth, int fifth)
         {
-            shooting[0] = f;
-            shooting[1] = s;
-            shooting[2] = th;
-            shooting[3] = ff;
-            shooting[4] = fff;
+            shooting[0] = first;
+            shooting[1] = second;
+            shooting[2] = third;
+            shooting[3] = fourth;
+            shooting[4] = fifth;
             int num = 0;
              for(int i = 0; i < 5; i++)
              {
@@ -56,6 +62,7 @@ namespace Biathlon
             _accuracy += "/10";
 
         }
+        
         public Biathlonist(string name, string surname, string age, string gender, string profession,
                       string salary, string endurance, int weight, string height,string accuracy , string normalSpeed)
         {
@@ -71,19 +78,17 @@ namespace Biathlon
             _profession = CheckData(profession, 97, 122);
             _salary = CheckData(salary, 48, 57);
             _endurance = CheckData(endurance, 47, 57);
-           
             p.Weight = weight;
             p.Height = CheckData(height, 48, 57);
             _accuracy = CheckData(accuracy,47,57);
             _normalSpeed = CheckData(normalSpeed,48,57);
         }
+        
         public override void Information()
         {
             Console.WriteLine($"\nName: {_name}\nSurname: {_surname}\nAge: {_age}\n" +
                 $"Gender: {_gender}\nProfession: biathlonist\nSalary: {_salary}\nEndurance: {_endurance}\nWeight(kg): {p.Weight}\nHeight(cm): {p.Height}\n" +
                 $"Accuracy: {_accuracy}\nNormal speed(km/h): {_normalSpeed}\nid: {_id}\n");
         }
-
-
     }
 }
