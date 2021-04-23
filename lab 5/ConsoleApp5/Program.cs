@@ -30,7 +30,6 @@ namespace ConsoleApp5
             fourthPerson.Information();
             fourthPerson.Shoot(1, 1, 0, 1, 1);
             fourthPerson.Information();
-
         }
     }
 }
