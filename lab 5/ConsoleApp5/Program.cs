@@ -17,13 +17,13 @@ namespace ConsoleApp5
                 new Biathlonist("darya", "sviridova", "26", "woman","sportsman", "1000", "9/10", 55, "165", "7/10", "15")
 
             };
+            
             foreach(var sportsm in sportsmans)
             {
                 sportsm.Information();
                 sportsm.ParticipInComp();
                 sportsm.Information();
             }
-
         }
     }
 }
